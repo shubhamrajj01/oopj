@@ -1,3 +1,5 @@
+package Lab2;
+
 // wap to calculate prime factor of a number
 import java.util.*;
 

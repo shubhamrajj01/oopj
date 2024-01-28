@@ -1,3 +1,5 @@
+package Lab2;
+
 // wap to calculate area of triangle with herons formula
 
 import java.util.Scanner;

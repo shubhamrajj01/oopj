@@ -1,3 +1,5 @@
+package Lab2;
+
 // wap to calculate the HCF of a number.
 import java.util.Scanner;
 

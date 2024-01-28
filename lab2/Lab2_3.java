@@ -1,3 +1,5 @@
+package Lab2;
+
 // wap to input a three digit number and print sum of number without loop
 
 import java.util.Scanner;
