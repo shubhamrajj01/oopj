@@ -1,10 +1,12 @@
 package Lab1;
 
-public class Lab1_1 {
-    public static void main(String[] args) {
+public class Lab1_1{
+	
+    public static void main(String[] args) 
+    {
         System.out.println("Name: SHUBHAM");
-        System.out.println("roll numer : 22052857");
-        System.out.println("section :CSE36");
+        System.out.println("Roll numer : 22052857");
+        System.out.println("Section :CSE36");
 
     }
 }

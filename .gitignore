@@ -1,2 +1,19 @@
 # Ignore compiled Java classes
 *.class
+
+
+# Ignore test.java file
+test.java
+
+
+# Ignore the folder named "test"
+test/
+
+
+
+
+
+
+*.project
+*.classpath
+*.iml
