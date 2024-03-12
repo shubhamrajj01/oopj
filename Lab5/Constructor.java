@@ -17,7 +17,7 @@ public class Constructor {
         WoodBox woodBox = new WoodBox(length, width, height, thick);
 
         System.out.println("Dimensions of the wood box:");
-        System.out.println("Length: " + woodBox.length);
+        System.out.println("Length: " + wowwodBox.length);
         System.out.println("Width: " + woodBox.width);
         System.out.println("Height: " + woodBox.height);
         System.out.println("Thickness: " + woodBox.thick);

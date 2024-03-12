@@ -16,8 +16,14 @@ public class PlasticCost {
         Box box = new Box(length, width, height);
         Sheet sheet = new Sheet(length, width);
 
+        if (height == 0){
+            System.out.println("Cost of 2D Sheet=" + sheet.cost2D());
+        }
+        else
+        {
         System.out.println("Cost of 3D Box=" + box.cost3D());
-        System.out.println("Cost of 2D Sheet=" + sheet.cost2D());
+        // System.out.println("Cost of 2D Sheet=" + sheet.cost2D());
+        }
     }
 }
 
