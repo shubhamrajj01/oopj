@@ -1,8 +1,4 @@
-// Write a Java class which has a method called
-// ProcessInput(). This method checks the number entered by the user. If the
-// entered number is negative then throw an user defined exception called
-// NegativeNumberException, otherwise it displays the double value of the entered
-// number.
+// Write a Java class which has a method called ProcessInput(). This method checks the number entered by the user. If the entered number is negative then throw an user defined exception called NegativeNumberException, otherwise it displays the double value of the entered number.
 // Input: Enter a number
 // Output: Double value: 8
 // Input: Enter a number -4

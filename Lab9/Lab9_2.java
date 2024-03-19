@@ -2,9 +2,6 @@
 // using try, catch, and finally block.
 // Input: Operand values for division operation mentioned in the program
 // Output: ArithmeticException caught by try-catch-finally block
-
-package Lab9;
-
 import java.util.Scanner;
 
 public class Lab9_2 {

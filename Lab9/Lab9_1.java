@@ -9,15 +9,14 @@ import java.util.Scanner;
 public class Lab9_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the size of the number");
+        System.out.print("Enter the size of the number: ");
         int size = scanner.nextInt();
         System.out.println("Enter the numbers:");
-        String[] input = scanner.nextLine().split(" ");
         int[] numbers = new int[size]; // array size is 4
 
         try {
-            for (int i = 0; i < input.length; i++) {
-                numbers[i] = Integer.parseInt(input[i]);
+            for (int i = 0; i < args.length; i++) {
+                numbers[i] = Integer.parseInt(args[i]);
             }
         }
         catch (ArrayIndexOutOfBoundsException e) {
