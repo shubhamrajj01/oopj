@@ -3,11 +3,11 @@
 
 
 # Ignore test.java file
-test.java
+Test.java
 
 
 # Ignore the folder named "test"
-test/
+TEST/
 
 
 

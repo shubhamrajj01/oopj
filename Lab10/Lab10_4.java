@@ -6,28 +6,30 @@
 
 import java.util.Scanner;
 
+class CheckArgument extends Exception{
+    public CheckArgument(String message){
+        super(message);
+    }
+}
+
 public class Lab10_4 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter four space-separated integers: ");
-        String inputLine = scanner.nextLine();
-        String[] inputStrings = inputLine.split(" ");
-        if (inputStrings.length < 4) {
-            System.out.println("Exception occurred: Please provide four arguments.");
-        } else {
-            try {
-                int sumOfSquares = 0;
-                for (String arg : inputStrings) {
-                    int number = Integer.parseInt(arg);
+        try {
+            int sumOfSquares = 0;
+            if (args.length < 4) {
+                throw new CheckArgument("Exception occurred- CheckArgument");                
+            }
+            else{
+                for (int i = 0; i < args.length; i++) {
+                    int number = Integer.parseInt(args[i]);
                     sumOfSquares += number * number;
                 }
                 System.out.println("Sum of squares: " + sumOfSquares);
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input. Please enter integers only.");
             }
         }
-
-        scanner.close();
+        catch (CheckArgument c) {
+            System.out.println(c.getMessage());
+        }
     }
 }
